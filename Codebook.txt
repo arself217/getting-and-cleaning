@@ -1,0 +1,33 @@
+Code book
+
+ID = participant IDs
+
+Activity labels
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+
+X/Y variable information available in read me file from unzipped file in step 1.
+
+Steps to perform analysis.
+
+## Install package "Downloader" for getting and unzipping data
+
+1. Download and unzip files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+2. Load necessary test, train, subject, activity and features files into R
+
+3. Assign descriptive column names based on the features file, activity labels, test and train files, and subject IDs
+
+4. Combine the data sets to create a master set with all train and test data
+
+5. Filter the std and mean data only
+
+6. Create second tidy data set by aggregating data
+
+7. Output second data set into txt and csv format
+
