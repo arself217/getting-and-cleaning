@@ -7,4 +7,4 @@ Codebook.md contains the instructions, variables, and other details needed to ru
 
 run_analysis.R contains the R code to perfrom the analysis. 
 
-The 5th step of the assignment is run_tidy.R This contains the code to complete the 5th analysis step. 
+The 5th step of the assignment is in the run_analysis.R file and the output is tidyset_2.txt.
